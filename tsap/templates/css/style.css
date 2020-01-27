@@ -1,0 +1,158 @@
+.page-header {
+  color: black;
+  height: 40vh;
+  position: center;
+  top: 0px;
+  width:100%;
+  margin-bottom: 0px;
+  overflow: hidden;
+  border-bottom: 8px solid black;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/logo4.png");
+  background-size: 70% 100%;
+  border: 5px solid white;
+  /*background-color: black; */
+}
+/*
+.page-header:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image:  url("../images/header2.jpg");
+  background-size: cover;
+  background-size: auto;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+*/
+
+.logo {
+  width: 80%;
+  height: 100%;
+  opacity: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-background {
+  background-position: center;
+}
+
+.contents {
+  background-color: black;
+  height: auto;
+  overflow: auto;
+  opacity: 0.90;
+  background-position: center;
+  max-width: 70%;
+  margin-bottom: 10px;
+}
+
+.txt-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  /*text-decoration: underline;*/
+  text-shadow: 2px 2px #484a4b;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+}
+.full-page {
+  background-repeat: no-repeat;
+  background-image: url("../images/stonewall1.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 100%;
+  padding: 10px 30px 30px 30px;
+}
+
+.vis1 {
+  background-repeat: no-repeat;
+  background-image: url("../images/desihall.png");
+  background-color: black;
+  opacity: .95;
+  background-size: contain;
+}
+
+.vis2 {
+  background-repeat: no-repeat;
+  background-image: url("../images/vis2.png");
+  background-color: black;
+  opacity: .95;
+  height: 400px;
+  background-size: 95% 80%;
+}
+
+.vis3 {
+  background-repeat: no-repeat;
+  background-image: url("../images/vis3.png");
+  background-color: black;
+  opacity: .95;
+  height: 400px;
+  background-size: 95% 80%;
+}
+
+.watch {
+  height: 400px;
+  width: 50%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  /*display: block;
+  margin-left: auto;
+  margin-right: auto; */
+}
+body {
+  color: black;
+  /*color: white;
+  background-color: #00a4e3;
+  */
+}
+
+p {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5em;
+}
+
+ul {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
+  list-style-position: inside;
+  overflow: auto;
+}
+
+ul#services {
+  list-style-type: square;
+  padding: 10px 50px 60px 60px;
+  overflow: auto;
+}
+
+ul#services li{
+  font-size: 30px;
+  text-shadow: 2px 2px #003C93;
+
+}
+
+ul#services p{
+  font-size: 20px;
+  padding-left: 70px;
+}
+li {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
+}
