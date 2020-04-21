@@ -13,10 +13,11 @@
                if( $(this).val() == "89dew2356" ) {
                    e.preventDefault();
                    $(this).addClass('input-error');
-                   window.location.replace("watch.html");
+
                }
                else {
                  window.alert("Wrong Serial Number. Please try again.")
+                 window.location.replace("watch.html");
                }
            });
 
