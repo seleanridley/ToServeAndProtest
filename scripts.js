@@ -17,7 +17,6 @@
                }
                else {
                  window.alert("Wrong Serial Number. Please try again.")
-                 window.location.href("access.html");
                }
            });
 
