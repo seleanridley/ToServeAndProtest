@@ -1,0 +1,80 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  background-color: black;
+}
+
+a {
+  size: 2em;
+}
+
+.row {
+  padding-top: 25px;
+}
+p#head {
+ align: center;
+ padding-top: 25px;
+ padding-left: 30%;
+ padding-right: 30%;
+}
+
+footer {
+  background-color: black!important;
+}
+.navbar {
+  background-color: black!important;
+}
+.container, .card-body, .card-header, .card-footer {
+  background-color: black;
+  border: white 5px;
+}
+
+.carousel-item img {
+   position: absolute;
+   height: 100%;
+   width: 50%!important;
+   width: 10px;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%)
+}
+
+.carousel-fade .carousel-item {
+ opacity: 0;
+ transition-duration: .6s;
+ transition-property: opacity;
+}
+
+h1, h2, h3, h4 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+}
+
+.carousel-item {
+  height: 500px;
+  align-items: center;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
